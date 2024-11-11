@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<img src="imagem/imagem.png" alt="logo">
+		<img class="rounded mx-auto d-block" src="imagem/imagem.png" alt="logo" id="img">
 		<nav>
 			<ul>
 				<li><a href="#">Nome</a></li>
@@ -19,8 +19,12 @@
 			</ul>
 		</nav>
 	</header>
-	<main><h2>Conteúdo</h2></main>
-	<footer><h2>Rodapé</h2></footer>
+	<main class="container">
+		<h2>Conteúdo</h2>
+	</main>
+	<footer>
+		<h2>Rodapé</h2>
+	</footer>
 
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
