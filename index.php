@@ -10,13 +10,15 @@
 <body>
 	<header>
 		<img class="rounded mx-auto d-block" src="imagem/imagem.png" alt="logo" id="img">
-		<nav>
-			<ul>
-				<li><a href="#">Nome</a></li>
-				<li><a href="#">Produtos</a></li>
-				<li><a href="#">Fornecedores</a></li>
-				<li><a href="#">Categorias</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<ul>
+					<li><a href="#">Nome</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Fornecedores</a></li>
+					<li><a href="#">Categorias</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<main class="container">
